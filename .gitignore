@@ -1,0 +1,77 @@
+# ==============================================
+# IntelliJ IDEA
+# ==============================================
+**/.idea/
+**/*.iml
+**/*.ipr
+**/*.iws
+**/out/
+**/.idea_modules/
+
+# ==============================================
+# Django
+# ==============================================
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/__pycache__/
+**/db.sqlite3
+**/instance/
+**/.env
+**/*.log
+
+# Ignore Django migrations (optional)
+**/migrations/**/__pycache__/
+**/migrations/*.py[co]
+!**/migrations/__init__.py
+
+# Ignore compiled Python files
+**/*.py[cod]
+**/*$py.class
+
+# Ignore media/uploads (optional)
+**/media/
+**/staticfiles/
+**/static/
+
+# ==============================================
+# Node.js / npm (Next.js, Vite)
+# ==============================================
+**/node_modules/
+**/package-lock.json
+**/pnpm-lock.yaml
+**/yarn.lock
+**/.vscode/
+**/.next/
+**/dist/
+**/.cache/
+**/*.log
+
+# Vite-specific files
+**/.vite/
+**/.vitepress/
+
+# Ignore build artifacts
+**/build/
+**/out/
+**/*.DS_Store
+
+# ==============================================
+# VS Code Extensions
+# ==============================================
+**/.vscode/
+**/.vscode/settings.json
+**/.vscode/tasks.json
+**/.vscode/launch.json
+**/.vscode/workspaceStorage/
+**/.vscode-test/
+
+# ==============================================
+# Other
+# ==============================================
+**/*.swp
+**/*.swo
+**/*.swn
+**/Thumbs.db
+**/.DS_Store
+backend/myenv/
